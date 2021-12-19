@@ -1,0 +1,36 @@
+.page {
+  color: white;
+  padding: 0 0rem;
+  background: #f1f5f9;
+}
+.page__content {
+  min-height: calc(106vh - 175px);
+  border-radius: 1px;
+  margin-top: -4rem;
+  background: white;
+  color: black;
+  font-size: 1rem;
+}
+.page__content-data {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.add-account {
+  width: inherit !important;
+  min-width: unset !important;
+  font-size: large;
+}
+.required-asterisk {
+  color: red;
+  font-weight: bold;
+  margin-left: 3px;
+  font-size: 1.2em;
+}
+.update-account {
+  display: block;
+  margin-left: auto;
+  width: inherit !important;
+  min-width: unset !important;
+  font-size: small;
+}
